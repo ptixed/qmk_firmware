@@ -6,7 +6,10 @@
     "files.exclude": {
         "**/.build": true,
         "**/*.hex": true,
-        "**/*.bin": true
+        "**/*.bin": true,
+        "layouts/": true,
+        "users/": true,
+        // "keyboards/": true,
     },
     "files.associations": {
         "*.h": "c",

@@ -246,5 +246,8 @@ void dynamic_keymap_macro_send(uint8_t id) {
             }
         }
         send_string(data);
+
+        for (uint16_t i = TAP_CODE_DELAY; i > 0; i--)
+            wait_ms(1);
     }
 }
